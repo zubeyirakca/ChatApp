@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".view.ProfileFragment">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_fragment_imgProfile"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:background="@drawable/default_profile"/>
+
+    <Button
+        android:id="@+id/profile_fragment_btnChangeProfilePicture"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="Change Picture"
+        android:background="@null"
+        android:backgroundTint="#2196F3"/>
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nick Name : "
+
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/profile_fragment_textUserNickName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="User Nick Name"
+            android:maxLines="1"
+            android:ellipsize="end"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Name : "/>
+
+    <TextView
+        android:id="@+id/profile_fragment_textUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="Name "
+        android:maxLines="1"
+        android:ellipsize="end"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Surname : "/>
+
+    <TextView
+        android:id="@+id/profile_fragment_textUserSurname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="Surname"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/profile_fragment_btnEditProfile"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Edit Profile"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:background="@null"
+        android:backgroundTint="#2196F3"/>
+
+</LinearLayout>

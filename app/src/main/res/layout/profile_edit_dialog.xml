@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:minWidth="400dp"
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    tools:context=".view.ProfileFragment">
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Nick Name : "/>
+        <EditText
+            android:id="@+id/profile_edit_dialog_editUserNickName"
+            android:layout_width="200dp"
+            android:textAlignment="center"
+            android:maxLength="30"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="User Nick Name"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Name : "/>
+
+        <EditText
+            android:id="@+id/profile_edit_dialog_editUserName"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:maxLength="30"
+            android:text="Name "
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Surname : "/>
+
+        <EditText
+            android:id="@+id/profile_edit_dialog_editUserSurname"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:maxLength="30"
+            android:text="Surname"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/profile_edit_dialog_btnSave"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Save"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:background="@null"
+        android:backgroundTint="#2196F3"/>
+
+</LinearLayout>

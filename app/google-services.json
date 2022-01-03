@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1012228869066",
+    "project_id": "chatapp-d828a",
+    "storage_bucket": "chatapp-d828a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012228869066:android:828c21aecdc81eba4f9d33",
+        "android_client_info": {
+          "package_name": "com.moralabs.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012228869066-cip7rb1r5afukcbgnscgn5e7b2k3tc3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYdUQNGVNP-s6kjs9_sP7pjWaS8-MyQg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012228869066-cip7rb1r5afukcbgnscgn5e7b2k3tc3s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
